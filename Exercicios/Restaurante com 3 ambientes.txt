@@ -1,0 +1,41 @@
+Elabore um algoritmo que possa descobrir, através de perguntas e respostas, em qual área de um restaurante uma pessoa ou grupo de pessoas precisa ser alocada.
+O restaurante tem três áreas: térreo, 1ro andar, e área externa.
+Clientes fumantes ou com animais de estimação precisam ser alocadas na área externa.
+Grupos de 5 ou mais precisam ser alocados no 1º andar, pois não dá para juntar mesas no térreo.
+Qualquer outro grupo de pessoas pode ser alocado no térreo. 
+
+
+3 ambientes.
+Fumante ou com pet=> area externa
+Grupo de 5 pessoas => Térreo
+Se o grupo tiver mais de 5 pessoas 1º andar
+Inicio
+
+
+Variaveis
+
+fumantesOuPet : lógico
+
+numeroDePessoas: inteiro
+escreva ("Tem fumante ou animal de estimaçao no  seu grupo?")
+
+leia (fumantesOuPet)
+
+se (fumantesOuPet == verdadeiro) entao
+
+escreva ("Por favor, dirijam-se à área externa")
+
+senao
+
+escreva ("Quantas pessoas têm no seu grupo?")
+
+leia (numeroDePessoas)
+
+se (numeroDePessoas >= 5) entao
+
+escreva ("Por favor, dirijam-se ao 1ro andar")
+
+senao
+
+escreva ("Por favor, permaneçam no térreo")
+
