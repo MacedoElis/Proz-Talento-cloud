@@ -1,0 +1,15 @@
+//criando o banco
+
+CREATE DATABASE ESCOLA.
+
+USE ESCOLA
+//criando a tabela aluno
+
+create table ALUNO(
+	id int insigned not null auto_increment,
+	nome varchar(100) not null,
+	e-mail varchar (100) not null,
+	endereco varchar (100),
+	PRIMARY KEY (id)
+
+); 
